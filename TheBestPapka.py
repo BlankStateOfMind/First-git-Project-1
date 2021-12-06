@@ -105,6 +105,6 @@ def welcome(message):
 #         bot.send_message(message.from_user.id, str_user)
 #     # else:
 #     #     bot.send_message(message.from_user.id, "Вам эта команда не доступна!" )
-
+print('Hello Alex')
 
 bot.polling(none_stop=True)
